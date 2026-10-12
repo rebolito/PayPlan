@@ -1,0 +1,9 @@
+PAYPLAN v0.9.53 — PRIMER PAQUETE PWA
+
+1. Guarda una copia JSON de tus datos desde Ajustes en la versión actual.
+2. Sube TODOS los archivos de esta carpeta juntos a un hosting HTTPS (no abras index.html como archivo local para probar la instalación PWA).
+3. Abre la dirección HTTPS en el iPhone; añade la web a la pantalla de inicio desde el navegador compatible.
+4. Importa el JSON desde Ajustes en la nueva dirección web: los datos locales no se transfieren automáticamente entre edge://external-file y HTTPS.
+5. Después de cargar la web una vez conectado, prueba abrirla sin conexión.
+
+IMPORTANTE: la interfaz y registros básicos funcionan offline tras instalar/cachear. El OCR de recibos NO es offline: sigue dependiendo de Tesseract desde CDN y puede fallar. NO introducir datos reales sensibles en hosting de terceros sin revisar la seguridad y privacidad.
