@@ -1,5 +1,5 @@
-// PayPlan v0.9.57. Offline shell only; no user data cached.
-const CACHE='payplan-shell-v0957';
+// PayPlan v0.9.58. Offline shell only; no user data cached.
+const CACHE='payplan-shell-v0958';
 const FILES=['./','./index.html','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting()});
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()))});
