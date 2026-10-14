@@ -8,7 +8,7 @@
 <link rel="apple-touch-icon" href="./icons/icon-192.png"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-title" content="PayPlan"/>
-<title>PayPlan MVP v0.9.53 · Nuevo · Cliente nuevo</title>
+<title>PayPlan MVP v0.9.54 · Nuevo · Cliente nuevo</title>
 <style>
 :root{
   --bg:#f5f7fb; --card:#fff; --text:#111827; --muted:#6b7280; --line:#e5e7eb;
@@ -151,7 +151,7 @@ input[type="date"]{min-height:52px;cursor:pointer;color-scheme:light}body.dark i
 #scheduledPayStatus.scheduled-status-error{background:#fee2e2!important;color:#991b1b!important;border:1px solid #ef4444!important;border-radius:12px;padding:12px 14px;font-weight:700;line-height:1.45}
 html[data-theme="dark"] #scheduledPayStatus.scheduled-status-error{background:#4c1d1d!important;color:#fecaca!important;border-color:#f87171!important}
 
-/* v0.9.53 — mobile-friendly debt cards */
+/* v0.9.54 — mobile-friendly debt cards */
 .pp-debt-card{border:1px solid var(--line);border-radius:17px;padding:16px;margin:12px 0;background:var(--card);min-width:0}
 .pp-debt-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .pp-debt-head>div{min-width:0}.pp-debt-head b{font-size:17px;overflow-wrap:anywhere}
@@ -168,7 +168,7 @@ html[data-theme="dark"] #scheduledPayStatus.scheduled-status-error{background:#4
 .pp-debt-details .due{margin-top:7px;overflow-wrap:anywhere}
 @media(max-width:380px){.pp-debt-card{padding:12px}.pp-debt-head{gap:8px}.pp-debt-balance strong{font-size:20px}}
 
-/* v0.9.53 — option 2: elevated debt cards, visual-only change */
+/* v0.9.54 — option 2: elevated debt cards, visual-only change */
 .pp-debt-card{
   background:linear-gradient(145deg,#ffffff 0%,#f0f5fc 100%);
   border:1px solid #c7d7eb;
@@ -186,11 +186,11 @@ html[data-theme="dark"] .pp-debt-facts>div{background:#203b5a;border:1px solid #
 html[data-theme="dark"] .pp-debt-details{border-top-color:#355675}
 html[data-theme="dark"] .pp-debt-actions .btn.secondary{background:#193453;border:1px solid #365b81}
 
-/* Monthly analytics v0.9.53 */
+/* Monthly analytics v0.9.54 */
 .report-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:14px 0}.report-kpi,.report-panel{background:linear-gradient(145deg,#172d48,#0d2037);border:1px solid #355675;border-radius:18px;padding:16px;box-shadow:0 12px 24px rgba(0,0,0,.19)}.report-kpi small{display:block;color:var(--muted);font-size:13px}.report-kpi strong{font-size:clamp(20px,5vw,29px);display:block;margin-top:6px}.report-panel{margin:13px 0}.report-panel h3{margin:0 0 12px}.report-bars{display:flex;align-items:flex-end;gap:12px;min-height:150px;padding:12px 3px 0;border-bottom:1px solid #426080}.report-week{flex:1;min-width:0;text-align:center}.report-pair{height:115px;display:flex;align-items:flex-end;justify-content:center;gap:5px}.report-bar{width:29%;min-height:0;border-radius:6px 6px 0 0}.report-bar.income{background:#34d399}.report-bar.outgo{background:#fb7185}.report-week small{font-size:11px;color:var(--muted)}.report-legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:12px}.report-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}.report-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid #29435e}.report-row:last-child{border-bottom:0}.report-track{height:8px;background:#29435e;border-radius:9px;overflow:hidden;margin:5px 0}.report-fill{height:100%;background:#60a5fa;border-radius:9px}.report-positive{color:#34d399}.report-negative{color:#fb7185}.report-muted{font-size:12px;color:var(--muted)}html:not([data-theme="dark"]) .report-kpi,html:not([data-theme="dark"]) .report-panel{background:#f2f7ff;border-color:#c7d7eb;box-shadow:0 8px 18px rgba(20,55,100,.08)}
 @media(max-width:390px){.report-kpi,.report-panel{padding:12px}}
 
-/* PayPlan v0.9.53 advanced reports */
+/* PayPlan v0.9.54 advanced reports */
 .report-advanced{background:linear-gradient(155deg,#152b49,#102039);border:1px solid #355779;border-radius:19px;padding:17px;margin-top:16px;overflow:hidden}
 .report-advanced h3{font-size:19px;margin:0 0 14px;color:#f0f6ff}
 .pp-report-svg{display:block;width:100%;height:auto;max-height:320px;overflow:visible}
@@ -211,7 +211,7 @@ html[data-theme="light"] .report-advanced{background:#f1f6ff;border-color:#bbd0e
 
 .pp-nowrap-amount{white-space:nowrap;display:inline-block;font-variant-numeric:tabular-nums}.report-row>div:first-child{min-width:0;overflow-wrap:anywhere}.report-row>b{flex-shrink:0}
 
-/* v0.9.53: gastos recurrentes, tarjetas móviles */
+/* v0.9.54: gastos recurrentes, tarjetas móviles */
 .pp-bill-list{display:grid;gap:14px;margin-top:20px}
 .pp-bill-card{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:18px;min-width:0}
 .pp-bill-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
@@ -227,7 +227,7 @@ html[data-theme="light"] .report-advanced{background:#f1f6ff;border-color:#bbd0e
 @media(max-width:390px){.pp-bill-card{padding:14px}.pp-bill-actions{grid-template-columns:1fr 1fr}.pp-bill-actions .btn{font-size:.87rem}}
 .pp-movement-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:12px}.pp-movement-filters .field{min-width:0}.pp-movement-filters input,.pp-movement-filters select{width:100%;max-width:100%}@media(max-width:600px){.pp-movement-filters{grid-template-columns:1fr}.pp-movement-filters .field{margin:0}}
 
-/* v0.9.53: accesos rápidos y captura de recibos */
+/* v0.9.54: accesos rápidos y captura de recibos */
 .pp-home-shortcuts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin:10px 0 16px}
 .pp-home-shortcut{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:14px;min-width:0;margin:0!important;padding:17px!important}
 .pp-home-shortcut b{font-size:1rem}.pp-home-shortcut .due{font-size:.86rem;margin-top:6px}.pp-home-shortcut .btn{width:100%;white-space:normal;min-height:44px;padding:9px 6px;font-size:.87rem}
@@ -240,7 +240,7 @@ html[data-theme="light"] .report-advanced{background:#f1f6ff;border-color:#bbd0e
 <body>
 <div class="app">
   <div class="topbar">
-    <div class="brand"><div class="logo">P</div><span>PayPlan <span style="font-size:11px;color:#6b7280">MVP v0.9.53 · Nuevo</span></span></div>
+    <div class="brand"><div class="logo">P</div><span>PayPlan <span style="font-size:11px;color:#6b7280">MVP v0.9.54 · Nuevo</span></span></div>
     <div class="lang"><button type="button" id="themeToggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Cambiar tema">🌙</button><button id="esBtn" class="active">ES</button><button id="enBtn">EN</button></div>
   </div>
   <div class="layout">
@@ -468,7 +468,7 @@ html[data-theme="light"] .report-advanced{background:#f1f6ff;border-color:#bbd0e
 </div></div>
 
 <!-- Bill Modal: plain-language form, retaining original IDs and data model -->
-<div class="modal" id="receiptModal"><div class="modalbox pp-receipt-modal"><div class="row wrap"><h3>📸 <span class="pp-receipt-heading">Registrar gasto desde recibo</span></h3><button class="btn ghost" type="button" onclick="closeModal('receiptModal')">✕</button></div><p class="muted pp-receipt-intro">Toma una foto o elige un recibo. Después de elegir una foto, PayPlan intentará leer comercio, fecha y total automáticamente. Revisa los datos antes de guardar. Necesita internet para cargar el lector OCR.</p><div class="pp-receipt-pickers"><button class="btn" type="button" onclick="document.getElementById('receiptCamera').click()">📷 <span class="pp-camera-label">Abrir cámara</span></button><button class="btn secondary" type="button" onclick="document.getElementById('receiptGallery').click()">🖼️ <span class="pp-gallery-label">Elegir foto</span></button></div><input id="receiptCamera" type="file" accept="image/*" capture="environment" style="display:none" onchange="receiptSelected(this)"><input id="receiptGallery" type="file" accept="image/*" style="display:none" onchange="receiptSelected(this)"><div id="receiptOcrStatus" class="notice" role="status" aria-live="polite" style="display:none;margin-top:10px"></div><div id="receiptPreviewWrap" class="pp-receipt-preview" style="display:none"><img id="receiptPreview" alt="Vista previa del recibo"><p class="muted pp-photo-notice">La imagen solo se usa como referencia en esta pantalla; no se guarda en el historial.</p></div><div class="formgrid" style="margin-top:12px"><div class="field"><label for="receiptMerchant">Comercio / lugar *</label><input id="receiptMerchant" placeholder="Ej. Supermercado"></div><div class="field"><label for="receiptTotal">Total pagado ($) *</label><input id="receiptTotal" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="0.00"></div><div class="field"><label for="receiptDate">Fecha de compra *</label><input id="receiptDate" type="date"></div><div class="field"><label for="receiptCategory">Categoría</label><select id="receiptCategory"><option value="food">Alimentación</option><option value="housing">Vivienda</option><option value="transport">Transporte</option><option value="health">Salud</option><option value="education">Educación</option><option value="other">Otros</option></select></div></div><div class="notice">Comprueba los datos antes de guardar. El saldo real se descontará solo cuando confirmes.</div><div class="row wrap"><button class="btn secondary" onclick="closeModal('receiptModal')">Cancelar</button><button class="btn" onclick="saveReceiptExpense()">✓ <span class="pp-receipt-save">Guardar gasto</span></button></div></div></div>
+<div class="modal" id="receiptModal"><div class="modalbox pp-receipt-modal"><div class="row wrap"><h3>📸 <span class="pp-receipt-heading">Registrar gasto desde recibo</span></h3><button class="btn ghost" type="button" onclick="closeModal('receiptModal')">✕</button></div><p class="muted pp-receipt-intro">Toma una foto o elige un recibo. Después de elegir una foto, PayPlan intentará leer comercio, fecha y total automáticamente. Revisa los datos antes de guardar. La lectura desde imagen requiere cargar el motor OCR por internet. También puedes pegar texto reconocido por tu iPhone, incluso sin conexión.</p><div class="pp-receipt-pickers"><button class="btn" type="button" onclick="document.getElementById('receiptCamera').click()">📷 <span class="pp-camera-label">Abrir cámara</span></button><button class="btn secondary" type="button" onclick="document.getElementById('receiptGallery').click()">🖼️ <span class="pp-gallery-label">Elegir foto</span></button></div><input id="receiptCamera" type="file" accept="image/*" capture="environment" style="display:none" onchange="receiptSelected(this)"><input id="receiptGallery" type="file" accept="image/*" style="display:none" onchange="receiptSelected(this)"><div class="field" style="margin-top:12px"><label for="receiptTextInput">📝 Texto del recibo (opción sin internet)</label><textarea id="receiptTextInput" rows="3" placeholder="En Fotos, selecciona el texto del recibo con Texto en vivo, copia y pégalo aquí."></textarea><button class="btn secondary" type="button" onclick="parsePastedReceipt()" style="margin-top:8px">🔎 Interpretar texto</button><p class="muted" style="font-size:0.85em">Si tu iPhone admite Texto en vivo, esta opción no necesita descargar un motor OCR. La lectura directa de fotos aún requiere conexión.</p></div><div id="receiptOcrStatus" class="notice" role="status" aria-live="polite" style="display:none;margin-top:10px"></div><div id="receiptPreviewWrap" class="pp-receipt-preview" style="display:none"><img id="receiptPreview" alt="Vista previa del recibo"><p class="muted pp-photo-notice">La imagen solo se usa como referencia en esta pantalla; no se guarda en el historial.</p></div><div class="formgrid" style="margin-top:12px"><div class="field"><label for="receiptMerchant">Comercio / lugar *</label><input id="receiptMerchant" placeholder="Ej. Supermercado"></div><div class="field"><label for="receiptTotal">Total pagado ($) *</label><input id="receiptTotal" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="0.00"></div><div class="field"><label for="receiptDate">Fecha de compra *</label><input id="receiptDate" type="date"></div><div class="field"><label for="receiptCategory">Categoría</label><select id="receiptCategory"><option value="food">Alimentación</option><option value="housing">Vivienda</option><option value="transport">Transporte</option><option value="health">Salud</option><option value="education">Educación</option><option value="other">Otros</option></select></div></div><div class="notice">Comprueba los datos antes de guardar. El saldo real se descontará solo cuando confirmes.</div><div class="row wrap"><button class="btn secondary" onclick="closeModal('receiptModal')">Cancelar</button><button class="btn" onclick="saveReceiptExpense()">✓ <span class="pp-receipt-save">Guardar gasto</span></button></div></div></div>
 <div class="modal" id="billModal"><div class="modalbox">
  <div class="row"><h3 id="billModalHeading">🧾 Añadir gasto</h3><button class="btn ghost" type="button" onclick="closeModal('billModal')">✕</button></div>
  <p class="muted" id="billModalIntro">Registra un gasto que forma parte de tu presupuesto familiar.</p>
@@ -629,7 +629,7 @@ let state;
 const freshClientDefaults={...JSON.parse(JSON.stringify(demo)),people:[],bills:[],extras:[],debts:[],goals:[],paycheckRecords:[],scheduledPaychecks:[],paidBills:{},cashBalance:null,budgetDays:14,ledger:[],ledgerOpening:null,ledgerBaseDate:null,emergencySuggestionDismissed:[],split:'income',lang:'es',theme:'light'};
 try{state=JSON.parse(localStorage.getItem("payplanFreshClient_v0914")||"null")||JSON.parse(JSON.stringify(freshClientDefaults))}catch(e){state=JSON.parse(JSON.stringify(freshClientDefaults))}
 state.theme=state.theme==="dark"?"dark":"light";state.paycheckRecords=state.paycheckRecords||[];state.scheduledPaychecks=Array.isArray(state.scheduledPaychecks)?state.scheduledPaychecks:[];state.debts=state.debts||[];state.goals=state.goals||[];state.paidBills=state.paidBills||{};state.cashBalance=state.cashBalance===undefined?null:state.cashBalance;state.budgetDays=state.budgetDays||14;state.ledger=state.ledger||[];state.ledgerOpening=state.ledgerOpening===undefined?null:state.ledgerOpening;state.ledgerBaseDate=state.ledgerBaseDate||null;
-// v0.9.53: One-time, explicitly requested fictitious history for visual testing.
+// v0.9.54: One-time, explicitly requested fictitious history for visual testing.
 // Balanced across six months, so previously verified household cash remains unchanged.
 function installFictitiousHistoryOnce(){
  if(state.fictitiousHistory945Installed)return;
@@ -1982,9 +1982,9 @@ window.addEventListener('error',function(e){
 
 let receiptPreviewUrl=null;
 function openReceiptModal(){
- ++ppOcrSequence;
+ ++ppOcrSequence;window.ppReceiptFinancing=false;
  document.getElementById('receiptMerchant').value='';document.getElementById('receiptTotal').value='';document.getElementById('receiptDate').value=iso(today());document.getElementById('receiptCategory').value='food';
- document.getElementById('receiptCamera').value='';document.getElementById('receiptGallery').value='';
+ document.getElementById('receiptCamera').value='';document.getElementById('receiptGallery').value='';document.getElementById('receiptTextInput').value='';
  if(receiptPreviewUrl){URL.revokeObjectURL(receiptPreviewUrl);receiptPreviewUrl=null}
  document.getElementById('receiptPreviewWrap').style.display='none';document.getElementById('receiptOcrStatus').style.display='none';document.getElementById('receiptModal').classList.add('show');
 }
@@ -2025,18 +2025,35 @@ function ppParseReceiptText(text){
   else {m=line.match(datePatterns[1]);if(!m)continue;mo=+m[1];d=+m[2];y=+m[3];if(y<100)y+=2000}
   const check=new Date(y,mo-1,d);if(check.getFullYear()===y&&check.getMonth()===mo-1&&check.getDate()===d&&y>=2020&&y<=new Date().getFullYear()+1){date=String(y).padStart(4,'0')+'-'+String(mo).padStart(2,'0')+'-'+String(d).padStart(2,'0');break}
  }
+ const isFinancing=/\b(payment details|payment date|debit card used|your payment|loan payment|credit card payment|financing payment|pago de pr[eé]stamo|pago de tarjeta)\b/i.test(text);
  const merchant=lines.slice(0,7).find(x=>x.length>=3&&/[a-záéíóúñ]{3}/i.test(x)&&!/(receipt|recibo|thank|gracias|tel[eé]fono|phone|www\.|http|date|fecha|invoice|factura|order|orden|cashier|cajero|store\s*#)/i.test(x)&&!/^\d/.test(x))||'';
- const all=(merchant+' '+text.slice(0,400)).toLowerCase();
+ const merchantName=/\bsunbit\b/i.test(text)?'Sunbit':merchant;
+ const all=(merchantName+' '+text.slice(0,400)).toLowerCase();
  let category='food';
  if(/(shell|chevron|exxon|mobil|sunoco|gas station|fuel|gasolina|uber|lyft|parking|taxi)/.test(all))category='transport';
  else if(/(walgreens|cvs|pharmacy|farmacia|clinic|hospital)/.test(all))category='health';
  else if(/(home depot|lowe.s|electric|utility|water bill)/.test(all))category='housing';
  else if(/(school|tuition|bookstore|universidad)/.test(all))category='education';
- return {merchant,total,date,category};
+ if(isFinancing)category='other';
+ return {merchant:merchantName,total,date,category,isFinancing};
+}
+function ppApplyReceiptFields(found){
+ if(found.merchant)document.getElementById('receiptMerchant').value=found.merchant;
+ if(found.total!==null)document.getElementById('receiptTotal').value=found.total.toFixed(2);
+ if(found.date)document.getElementById('receiptDate').value=found.date;
+ document.getElementById('receiptCategory').value=found.category;
+ window.ppReceiptFinancing=!!found.isFinancing;
+ const count=Number(!!found.merchant)+Number(found.total!==null)+Number(!!found.date);
+ ppOcrStatus((count?'Lectura completada: '+count+' de 3 datos detectados. Revisa los campos.':'No se reconocieron datos fiables; puedes introducirlos manualmente.')+(found.isFinancing?' ⚠️ Parece una confirmación de pago de financiamiento. Antes de guardarlo como gasto, comprueba que no esté registrado ya como pago de deuda.':''));
+}
+function parsePastedReceipt(){
+ const text=document.getElementById('receiptTextInput').value.trim();
+ if(!text){ppOcrStatus('Pega primero el texto copiado del recibo.');return}
+ ppApplyReceiptFields(ppParseReceiptText(text));
 }
 async function readReceiptOCR(file){
  const seq=++ppOcrSequence;
- ppOcrStatus('Leyendo recibo… Se descargará el lector OCR por internet la primera vez.');
+ ppOcrStatus('Leyendo recibo… La lectura directa de imagen necesita internet para descargar el motor OCR.');
  try{
   const OCR=await ppLoadOCR();if(seq!==ppOcrSequence)return;
   const worker=await OCR.createWorker('eng',1,{logger:m=>{if(seq===ppOcrSequence&&m.status==='recognizing text')ppOcrStatus('Reconociendo texto… '+Math.round((m.progress||0)*100)+'%')}});
@@ -2044,17 +2061,13 @@ async function readReceiptOCR(file){
   try{result=await worker.recognize(file)}finally{await worker.terminate()}
   if(seq!==ppOcrSequence)return;
   const found=ppParseReceiptText(result.data.text||'');
-  if(found.merchant)document.getElementById('receiptMerchant').value=found.merchant;
-  if(found.total!==null)document.getElementById('receiptTotal').value=found.total.toFixed(2);
-  if(found.date)document.getElementById('receiptDate').value=found.date;
-  document.getElementById('receiptCategory').value=found.category;
-  const count=Number(!!found.merchant)+Number(found.total!==null)+Number(!!found.date);
-  ppOcrStatus(count?'Lectura completada: '+count+' de 3 datos detectados. Revisa especialmente el total y la fecha antes de guardar.':'No se pudieron reconocer datos fiables. Puedes completarlos manualmente o probar otra foto más nítida.');
+  ppApplyReceiptFields(found);
  }catch(err){if(seq===ppOcrSequence){console.warn('Receipt OCR:',err);ppOcrStatus('No se pudo activar la lectura automática. Comprueba la conexión a internet o introduce los datos manualmente. En algunos navegadores los archivos locales bloquean el OCR.')}}
 }
 function saveReceiptExpense(){
  const name=document.getElementById('receiptMerchant').value.trim(),raw=document.getElementById('receiptTotal').value,amount=Number(raw),date=document.getElementById('receiptDate').value,category=document.getElementById('receiptCategory').value;
  if(!name||!raw||!Number.isFinite(amount)||amount<=0||!/^\d{4}-\d{2}-\d{2}$/.test(date)){alert('Completa comercio, fecha e importe válido.');return}
+ if(window.ppReceiptFinancing&&!confirm('Este documento parece un pago de financiamiento. Si ya registraste el pago en Deudas, guardarlo aquí duplicaría el gasto. ¿Deseas continuar como gasto independiente?'))return;
  if(addCashMovement('expense',name,-amount,date,null,{category})){save();render();closeModal('receiptModal');if(receiptPreviewUrl){URL.revokeObjectURL(receiptPreviewUrl);receiptPreviewUrl=null}alert('Gasto registrado correctamente.')}
 }
 </script>
