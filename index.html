@@ -8,7 +8,7 @@
 <link rel="apple-touch-icon" href="./icons/icon-192.png"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-title" content="PayPlan"/>
-<title>PayPlan MVP v0.9.56 · Nuevo · Cliente nuevo</title>
+<title>PayPlan MVP v0.9.57 · Nuevo · Cliente nuevo</title>
 <style>
 :root{
   --bg:#f5f7fb; --card:#fff; --text:#111827; --muted:#6b7280; --line:#e5e7eb;
@@ -151,7 +151,7 @@ input[type="date"]{min-height:52px;cursor:pointer;color-scheme:light}body.dark i
 #scheduledPayStatus.scheduled-status-error{background:#fee2e2!important;color:#991b1b!important;border:1px solid #ef4444!important;border-radius:12px;padding:12px 14px;font-weight:700;line-height:1.45}
 html[data-theme="dark"] #scheduledPayStatus.scheduled-status-error{background:#4c1d1d!important;color:#fecaca!important;border-color:#f87171!important}
 
-/* v0.9.56 — mobile-friendly debt cards */
+/* v0.9.57 — mobile-friendly debt cards */
 .pp-debt-card{border:1px solid var(--line);border-radius:17px;padding:16px;margin:12px 0;background:var(--card);min-width:0}
 .pp-debt-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .pp-debt-head>div{min-width:0}.pp-debt-head b{font-size:17px;overflow-wrap:anywhere}
@@ -168,7 +168,7 @@ html[data-theme="dark"] #scheduledPayStatus.scheduled-status-error{background:#4
 .pp-debt-details .due{margin-top:7px;overflow-wrap:anywhere}
 @media(max-width:380px){.pp-debt-card{padding:12px}.pp-debt-head{gap:8px}.pp-debt-balance strong{font-size:20px}}
 
-/* v0.9.56 — option 2: elevated debt cards, visual-only change */
+/* v0.9.57 — option 2: elevated debt cards, visual-only change */
 .pp-debt-card{
   background:linear-gradient(145deg,#ffffff 0%,#f0f5fc 100%);
   border:1px solid #c7d7eb;
@@ -186,11 +186,11 @@ html[data-theme="dark"] .pp-debt-facts>div{background:#203b5a;border:1px solid #
 html[data-theme="dark"] .pp-debt-details{border-top-color:#355675}
 html[data-theme="dark"] .pp-debt-actions .btn.secondary{background:#193453;border:1px solid #365b81}
 
-/* Monthly analytics v0.9.56 */
+/* Monthly analytics v0.9.57 */
 .report-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:14px 0}.report-kpi,.report-panel{background:linear-gradient(145deg,#172d48,#0d2037);border:1px solid #355675;border-radius:18px;padding:16px;box-shadow:0 12px 24px rgba(0,0,0,.19)}.report-kpi small{display:block;color:var(--muted);font-size:13px}.report-kpi strong{font-size:clamp(20px,5vw,29px);display:block;margin-top:6px}.report-panel{margin:13px 0}.report-panel h3{margin:0 0 12px}.report-bars{display:flex;align-items:flex-end;gap:12px;min-height:150px;padding:12px 3px 0;border-bottom:1px solid #426080}.report-week{flex:1;min-width:0;text-align:center}.report-pair{height:115px;display:flex;align-items:flex-end;justify-content:center;gap:5px}.report-bar{width:29%;min-height:0;border-radius:6px 6px 0 0}.report-bar.income{background:#34d399}.report-bar.outgo{background:#fb7185}.report-week small{font-size:11px;color:var(--muted)}.report-legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:12px}.report-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}.report-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid #29435e}.report-row:last-child{border-bottom:0}.report-track{height:8px;background:#29435e;border-radius:9px;overflow:hidden;margin:5px 0}.report-fill{height:100%;background:#60a5fa;border-radius:9px}.report-positive{color:#34d399}.report-negative{color:#fb7185}.report-muted{font-size:12px;color:var(--muted)}html:not([data-theme="dark"]) .report-kpi,html:not([data-theme="dark"]) .report-panel{background:#f2f7ff;border-color:#c7d7eb;box-shadow:0 8px 18px rgba(20,55,100,.08)}
 @media(max-width:390px){.report-kpi,.report-panel{padding:12px}}
 
-/* PayPlan v0.9.56 advanced reports */
+/* PayPlan v0.9.57 advanced reports */
 .report-advanced{background:linear-gradient(155deg,#152b49,#102039);border:1px solid #355779;border-radius:19px;padding:17px;margin-top:16px;overflow:hidden}
 .report-advanced h3{font-size:19px;margin:0 0 14px;color:#f0f6ff}
 .pp-report-svg{display:block;width:100%;height:auto;max-height:320px;overflow:visible}
@@ -211,7 +211,7 @@ html[data-theme="light"] .report-advanced{background:#f1f6ff;border-color:#bbd0e
 
 .pp-nowrap-amount{white-space:nowrap;display:inline-block;font-variant-numeric:tabular-nums}.report-row>div:first-child{min-width:0;overflow-wrap:anywhere}.report-row>b{flex-shrink:0}
 
-/* v0.9.56: gastos recurrentes, tarjetas móviles */
+/* v0.9.57: gastos recurrentes, tarjetas móviles */
 .pp-bill-list{display:grid;gap:14px;margin-top:20px}
 .pp-bill-card{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:18px;min-width:0}
 .pp-bill-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
@@ -227,7 +227,7 @@ html[data-theme="light"] .report-advanced{background:#f1f6ff;border-color:#bbd0e
 @media(max-width:390px){.pp-bill-card{padding:14px}.pp-bill-actions{grid-template-columns:1fr 1fr}.pp-bill-actions .btn{font-size:.87rem}}
 .pp-movement-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:12px}.pp-movement-filters .field{min-width:0}.pp-movement-filters input,.pp-movement-filters select{width:100%;max-width:100%}@media(max-width:600px){.pp-movement-filters{grid-template-columns:1fr}.pp-movement-filters .field{margin:0}}
 
-/* v0.9.56: accesos rápidos y captura de recibos */
+/* v0.9.57: accesos rápidos y captura de recibos */
 .pp-home-shortcuts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin:10px 0 16px}
 .pp-home-shortcut{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:14px;min-width:0;margin:0!important;padding:17px!important}
 .pp-home-shortcut b{font-size:1rem}.pp-home-shortcut .due{font-size:.86rem;margin-top:6px}.pp-home-shortcut .btn{width:100%;white-space:normal;min-height:44px;padding:9px 6px;font-size:.87rem}
@@ -240,7 +240,7 @@ html[data-theme="light"] .report-advanced{background:#f1f6ff;border-color:#bbd0e
 <body>
 <div class="app">
   <div class="topbar">
-    <div class="brand"><div class="logo">P</div><span>PayPlan <span style="font-size:11px;color:#6b7280">MVP v0.9.56 · Nuevo</span></span></div>
+    <div class="brand"><div class="logo">P</div><span>PayPlan <span style="font-size:11px;color:#6b7280">MVP v0.9.57 · Nuevo</span></span></div>
     <div class="lang"><button type="button" id="themeToggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Cambiar tema">🌙</button><button id="esBtn" class="active">ES</button><button id="enBtn">EN</button></div>
   </div>
   <div class="layout">
@@ -421,7 +421,7 @@ html[data-theme="light"] .report-advanced{background:#f1f6ff;border-color:#bbd0e
           <div class="card span12"><h2>⚙️ <span data-t="settings_title">Ajustes</span></h2><div class="field"><label data-t="language">Idioma</label><select id="langSelect"><option value="es">Español</option><option value="en">English</option></select></div></div>
           <div class="card span12" style="border:1px solid #4b668a">
             <h3 id="updateSettingsTitle">🔄 Actualizaciones</h3>
-            <p class="muted small" id="updateSettingsDescription">Versión instalada: v0.9.56. Comprueba si hay una versión nueva sin borrar tus datos.</p>
+            <p class="muted small" id="updateSettingsDescription">Versión instalada: v0.9.57. Comprueba si hay una versión nueva sin borrar tus datos.</p>
             <div class="row wrap" style="gap:10px;margin-top:12px"><button class="btn secondary" type="button" id="checkUpdateBtn" onclick="payPlanCheckUpdate()">🔎 Buscar actualización</button><button class="btn" type="button" id="applyUpdateBtn" onclick="payPlanApplyUpdate()" style="display:none">⬇ Actualizar ahora</button></div>
             <p class="muted small" id="updateStatus" role="status" aria-live="polite" style="margin-top:12px">Necesitas internet para buscar actualizaciones.</p>
           </div>
@@ -635,7 +635,7 @@ let state;
 const freshClientDefaults={...JSON.parse(JSON.stringify(demo)),people:[],bills:[],extras:[],debts:[],goals:[],paycheckRecords:[],scheduledPaychecks:[],paidBills:{},cashBalance:null,budgetDays:14,ledger:[],ledgerOpening:null,ledgerBaseDate:null,emergencySuggestionDismissed:[],split:'income',lang:'es',theme:'light'};
 try{state=JSON.parse(localStorage.getItem("payplanFreshClient_v0914")||"null")||JSON.parse(JSON.stringify(freshClientDefaults))}catch(e){state=JSON.parse(JSON.stringify(freshClientDefaults))}
 state.theme=state.theme==="dark"?"dark":"light";state.paycheckRecords=state.paycheckRecords||[];state.scheduledPaychecks=Array.isArray(state.scheduledPaychecks)?state.scheduledPaychecks:[];state.debts=state.debts||[];state.goals=state.goals||[];state.paidBills=state.paidBills||{};state.cashBalance=state.cashBalance===undefined?null:state.cashBalance;state.budgetDays=state.budgetDays||14;state.ledger=state.ledger||[];state.ledgerOpening=state.ledgerOpening===undefined?null:state.ledgerOpening;state.ledgerBaseDate=state.ledgerBaseDate||null;
-// v0.9.56: One-time, explicitly requested fictitious history for visual testing.
+// v0.9.57: One-time, explicitly requested fictitious history for visual testing.
 // Balanced across six months, so previously verified household cash remains unchanged.
 function installFictitiousHistoryOnce(){
  if(state.fictitiousHistory945Installed)return;
@@ -2106,7 +2106,7 @@ if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.
 </script>
 <script>
 // Update checks never modify the financial database or its backups.
-const PAYPLAN_APP_VERSION='0.9.56';
+const PAYPLAN_APP_VERSION='0.9.57';
 let payPlanUpdateReady=false;
 function payPlanUpdateText(es,en){return document.documentElement.lang==='en'?en:es}
 function payPlanUpdateStatus(message){const el=document.getElementById('updateStatus');if(el)el.textContent=message}
